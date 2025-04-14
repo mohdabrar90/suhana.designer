@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  header h1 {
+    color: #070707;
+text-transform: capitalize;
+  }
+  
+  .gallery img {
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-card, .category-card {
+    padding: 20px;
+    min-width: 200px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .service-card:hover, .category-card:hover {
+    background: #fce4ec;
+    transform: translateY(-5px);
+  }
+/* Add to your CSS file or in a <style> tag */
+.whatsapp-button,
+.instagram-button,
+.facebook-button {
+  position: fixed;
+  bottom: 250px;
+  right: 20px;
+  background-color: #25d366; /* WhatsApp Green */
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 100%;
+  margin-top: 10px;
+  z-index: 1000;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.instagram-button {
+  bottom: 110px;
+  background: #C13584;
+}
+
+.facebook-button {
+  bottom: 180px;
+  background: #3b5998;
+}
+
+.whatsapp-button:hover,
+.instagram-button:hover,
+.facebook-button:hover {
+  opacity: 0.8;
+}
+
